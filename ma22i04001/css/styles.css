@@ -98,11 +98,13 @@ h2 {
   background-clip: text;
   color: transparent;
 }
-/** SECCION ARTICULOS **/
-#seccion__articulos {
+/** SECCION ARTICULOS y SECCION INICIO**/
+#seccion__articulos,
+#seccion__inicio {
   background: url("../img/tren.png") no-repeat bottom;
   background-position: 500px bottom;
   position: relative;
+  background-color: #e9e9e9;
 }
 /** SECCION MAS Y SECCION CALENDARIO **/
 #seccion__mas,
@@ -119,13 +121,8 @@ h2 {
   padding-top: 170px;
   text-align: center;
 }
-/** SECCION INICIO Y SECCION ARTICULOS **/
-#seccion__inicio,
-#seccion__articulos {
-  background-color: #e9e9e9;
-}
 
-/* PIE DE PAGINA */
+/** PIE DE PAGINA **/
 footer {
   background-color: #510031;
   padding: 10px;
