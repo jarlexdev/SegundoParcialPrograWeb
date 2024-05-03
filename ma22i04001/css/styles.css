@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/** SELECTORES BASICOS **/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/** HEADER **/
+header {
+  width: 100%;
+  background: linear-gradient(to left, #c94b4b, #4b134f);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+/** CABECERA **/
+#cabecera {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: auto;
+}
+/** LOGO **/
+#logo {
+  flex: 20%;
+  padding-top: 15px;
+  padding-left: 5px;
+  display: flex;
+}
+#logo img {
+  max-width: 100%;
+}
+
+/** MENU **/
+.menu {
+  flex: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li {
+  padding: 10px;
+}
+.menu a {
+  display: block;
+  color: #ffffff;
+  padding: 0 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.menu a i {
+  font-size: 40px;
+  padding: 0 10px;
+}
+.menu ul li a {
+  color: #ffffff;
+}
+.menu a:hover {
+  text-decoration: hotpink double underline;
+}
+
+/** SECCION BANNER **/
+#seccion__banner {
+  background-image: url("../img/13184292_5161886.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1004px;
+  margin-top: 145px;
+  max-width: 100%;
+}
+/** TITULOS **/
+h2 {
+  font-size: 70px;
+  font-weight: 900;
+  background: linear-gradient(to left, #c94b4b, #4b134f);
+  background-clip: text;
+  color: transparent;
+}
+/** SECCION ARTICULOS **/
+#seccion__articulos {
+  background: url("../img/tren.png") no-repeat bottom;
+  background-position: 500px bottom;
+  position: relative;
+}
+/** SECCION MAS Y SECCION CALENDARIO **/
+#seccion__mas,
+#seccion__calendario {
+  background: url("../img/fondo-ciudad.png") no-repeat bottom;
+  background-color: #ffff;
+  position: relative;
+}
+#seccion__inicio,
+#seccion__articulos,
+#seccion__mas,
+#seccion__calendario {
+  height: 920px;
+  padding-top: 170px;
+  text-align: center;
+}
+/** SECCION INICIO Y SECCION ARTICULOS **/
+#seccion__inicio,
+#seccion__articulos {
+  background-color: #e9e9e9;
+}
+
+/* PIE DE PAGINA */
+footer {
+  background-color: #510031;
+  padding: 10px;
+  height: 180px;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.nombre {
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0;
+}
+.redes__sociales ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.redes__sociales ul li {
+  padding: 0 20px;
+}
+.redes__sociales ul li a {
+  color: #ff0099;
+  text-align: center;
+  font-size: 50px;
+}
